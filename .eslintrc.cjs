@@ -24,11 +24,10 @@ module.exports = {
     'plugin:react-hooks/recommended',
     'plugin:prettier/recommended',
   ],
-  plugins: ['react-hooks', 'import', 'prettier'],
+  plugins: ['react-hooks', 'import'],
   rules: {
     'no-unused-vars': 'off',
     'react/prop-types': 'warn',
-    'prettier/prettier': 'error',
     // this rule is annoying on strings with quotes in them
     'react/no-unescaped-entities': 'off',
   },
